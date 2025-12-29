@@ -1,0 +1,53 @@
+---
+title: "Motivation"
+---
+
+## This is a subtitle 
+
+This is text. 
+
+[Hyperlink to an externel website](https://quarto.org/)
+
+[Hyperlink to another section](keyFindings.html#key-finding-1) 
+
+A table is below:
+
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
+
+This is an image: 
+
+![Figure 1: Cat image](/assets/cat.png)
+
+Interactive plot is below: 
+
+```{python}
+#| echo: false
+import plotly.express as px
+
+# Example dataset
+df = px.data.iris()
+
+# Make interactive plot
+fig = px.scatter(df, x="sepal_width", y="sepal_length",
+                 color="species",
+                 title="Interactive Plotly Scatter")
+
+fig
+```
+
+
+This is a map:
+
+<iframe
+  src="https://www.google.com/maps/d/embed?mid=1L1EOKHYYIpvG8KEbe4iMEppFlZ598jA&ehbc=2E312F"
+  width="640"
+  height="480"
+  style="border:0;"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
