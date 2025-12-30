@@ -7,6 +7,10 @@ title: "Key Findings"
 This is text about the first key finding.
 
 
+![Figure 2: Image of a grey cat](/assets/grey_cat.png)
+
 ## Key Finding 2
 
 This is text about the second key finding.
+
+![Figure 3: Bunch of kittens](/assets/bunch_of_kittens.png)

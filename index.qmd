@@ -1,6 +1,15 @@
 ---
-title: "Motivation"
+title: "Project Title"
 ---
+
+*Author, Technology Service Center, University of Delaware*
+
+20XX-XX-XX
+
+## Motivation for this Work 
+
+Insert a paragraph of the motivation of this work. 
+
 
 ## This is a subtitle 
 
@@ -51,3 +60,24 @@ This is a map:
   loading="lazy"
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
+
+Reading from a public Google Sheet (code and display the data): 
+```{python}
+import pandas as pd
+
+sheet_id = "1jcZAtyEZ_5Q7ruPaUYxErM_a4UP9dP9PwbnsRnVl0hE"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv"
+
+df = pd.read_csv(url)
+df.head()
+```
+
+This is code snippet that is NOT runned: 
+
+```python
+def isOdd(n):
+  if n%2 == 0: 
+    return False
+  return True
+```
+
