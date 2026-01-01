@@ -2,6 +2,8 @@
 
 A template for creating report made with Quarto.
 
+Public link to the report: https://technology-service-center.github.io/reporting-template/
+
 ## Getting Started
 
 1. Install [Quarto CLI](https://quarto.org/docs/get-started/)
